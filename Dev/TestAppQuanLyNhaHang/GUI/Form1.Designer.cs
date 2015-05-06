@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Tất cả sản phẩm");
             this.tVNhomSP = new System.Windows.Forms.TreeView();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -55,6 +56,10 @@
             this.tVNhomSP.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tVNhomSP.Location = new System.Drawing.Point(0, 0);
             this.tVNhomSP.Name = "tVNhomSP";
+            treeNode1.Name = "Root";
+            treeNode1.Text = "Tất cả sản phẩm";
+            this.tVNhomSP.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode1});
             this.tVNhomSP.Size = new System.Drawing.Size(233, 230);
             this.tVNhomSP.TabIndex = 0;
             // 

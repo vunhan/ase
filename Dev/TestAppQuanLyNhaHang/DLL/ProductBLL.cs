@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TestAppQuanLyNhaHang.DAL;
+using TestAppQuanLyNhaHang.GUI;
 
 namespace TestAppQuanLyNhaHang.DLL
 {
@@ -14,6 +15,16 @@ namespace TestAppQuanLyNhaHang.DLL
         public DataTable ProductLoadAll()
         {
             return productDAL.ProductLoadAll();
+        }
+
+        /// <summary>
+        /// Insert Information Product
+        /// </summary>
+        /// <param name="productEntity"></param>
+        /// <returns></returns>
+        public int ProductInsert(ProductEntity productEntity)
+        {
+            return productDAL.ProductInsert(productEntity);
         }
 
     }

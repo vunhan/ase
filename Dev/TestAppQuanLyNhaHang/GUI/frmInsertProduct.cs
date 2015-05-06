@@ -17,6 +17,7 @@ namespace TestAppQuanLyNhaHang.GUI
         ProductTypeBLL productTypeBLL = new ProductTypeBLL();
         UnitBLL unitBLL = new UnitBLL();
         ProductSupplierBLL productSupplierDLL = new ProductSupplierBLL();
+        ProductEntity productEntity = new ProductEntity();
         public frmInsertProduct()
         {
             InitializeComponent();
@@ -66,6 +67,14 @@ namespace TestAppQuanLyNhaHang.GUI
             cbbProductSupplier.ValueMember = "SupplierName";
             cbbProductSupplier.Enabled = true;
         }
+
+        private void bntAdd_Click(object sender, EventArgs e)
+        {
+            productEntity.ProductID = "";
+
+        }
+
+      
        
     }
 }

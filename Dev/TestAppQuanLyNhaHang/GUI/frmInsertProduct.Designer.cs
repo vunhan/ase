@@ -210,6 +210,7 @@
             this.bntAdd.TabIndex = 3;
             this.bntAdd.Text = "Add";
             this.bntAdd.UseVisualStyleBackColor = true;
+            this.bntAdd.Click += new System.EventHandler(this.bntAdd_Click);
             // 
             // cbbProductType
             // 

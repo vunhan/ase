@@ -27,6 +27,7 @@ namespace TestAppQuanLyNhaHang
             DataTable dtTemp = new DataTable();
             dtTemp = productDLL.ProductLoadAll();
             dataGridView1.DataSource = dtTemp.DefaultView;
+           
         }
       /// <summary>
       /// Insert Information to Database
