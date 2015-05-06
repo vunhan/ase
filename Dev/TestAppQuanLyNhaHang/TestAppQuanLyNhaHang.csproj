@@ -45,40 +45,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\ConnectionDAL.cs" />
-    <Compile Include="DAL\ProductCategoryDAL.cs" />
     <Compile Include="DAL\ProductDAL.cs" />
-    <Compile Include="DAL\ProductSupplierDAL.cs" />
-    <Compile Include="DAL\ProductTypeDAL.cs" />
-    <Compile Include="DAL\UnitDAL.cs" />
-    <Compile Include="DLL\ProductCategoryBLL.cs" />
-    <Compile Include="DLL\ProductBLL.cs" />
-    <Compile Include="DLL\ProductSupplierBLL.cs" />
-    <Compile Include="DLL\ProductTypeBLL.cs" />
-    <Compile Include="DLL\UnitBLL.cs" />
-    <Compile Include="Entity\ProductCategoryEntity.cs" />
-    <Compile Include="Entity\ProductEntity.cs" />
-    <Compile Include="Entity\ProductSupplierEntity.cs" />
-    <Compile Include="Entity\ProductTypeEntity.cs" />
-    <Compile Include="Entity\UnitEntity.cs" />
+    <Compile Include="DLL\ProductDLL.cs" />
     <Compile Include="GUI\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GUI\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\frmInsertProduct.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="GUI\frmInsertProduct.Designer.cs">
-      <DependentUpon>frmInsertProduct.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\frmInsertProduct.resx">
-      <DependentUpon>frmInsertProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

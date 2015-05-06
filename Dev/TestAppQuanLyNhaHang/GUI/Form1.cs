@@ -8,14 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TestAppQuanLyNhaHang.DLL;
-using TestAppQuanLyNhaHang.GUI;
 
 namespace TestAppQuanLyNhaHang
 {
     public partial class Form1 : Form
     {
-        ProductBLL productDLL = new ProductBLL();
-        ProductEntity productEntity = new ProductEntity();
+        ProductDLL productDLL = new ProductDLL();
         public Form1()
         {
             InitializeComponent();
@@ -28,6 +26,7 @@ namespace TestAppQuanLyNhaHang
             dtTemp = productDLL.ProductLoadAll();
             dataGridView1.DataSource = dtTemp.DefaultView;
         }
+<<<<<<< HEAD
       /// <summary>
       /// Insert Information to Database
       /// </summary>
@@ -37,14 +36,9 @@ namespace TestAppQuanLyNhaHang
       {
          
       }
+=======
+>>>>>>> parent of 7c7d4f8... Fix add product to store
 
-
-      private void bntAddProduct_Click(object sender, EventArgs e)
-      {
-          frmInsertProduct fInsertProduct = new frmInsertProduct();
-          fInsertProduct.Show();
-      }
-
-
-     }
+      
+    }
 }
