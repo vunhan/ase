@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace TestAppQuanLyNhaHang.GUI
 {
-    class ProductEntity
+    class ProductCategoryEntity
     {
+
+        public string CategoryID { get; set; }
+        public string CategoryName { get; set; }
     }
 }
