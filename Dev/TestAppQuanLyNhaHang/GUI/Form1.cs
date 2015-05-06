@@ -35,7 +35,7 @@ namespace TestAppQuanLyNhaHang
       /// <returns></returns>
     private void ProductInsert(ProductEntity productEntity)
       {
-          productDLL.ProductInsert(productEntity);
+         
       }
 
 
