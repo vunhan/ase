@@ -26,7 +26,6 @@ namespace TestAppQuanLyNhaHang
             dtTemp = productDLL.ProductLoadAll();
             dataGridView1.DataSource = dtTemp.DefaultView;
         }
-<<<<<<< HEAD
       /// <summary>
       /// Insert Information to Database
       /// </summary>
@@ -36,8 +35,6 @@ namespace TestAppQuanLyNhaHang
       {
          
       }
-=======
->>>>>>> parent of 7c7d4f8... Fix add product to store
 
       
     }
